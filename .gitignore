@@ -5,6 +5,8 @@ node_modules
 /.pnp
 .pnp.js
 env.development
+.env
+.env.development
 # testing
 /coverage
 
