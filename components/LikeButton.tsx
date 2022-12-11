@@ -31,7 +31,7 @@ const LikeButton = ({ likes, handleLike, handleDislike }: IProps) => {
             {alreadyLiked ? (
                 <div 
                 className='bg-primary rounded-full p-2 
-                md:p-4 text-[#F51997]' 
+                md:p-4 text-[#33B3FF]' 
                 onClick={handleDislike}
                 >
                     <MdFavorite className='text-lg md:text-2xl'/>
