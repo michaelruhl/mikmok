@@ -4,7 +4,7 @@ import { client } from '../../utils/utils/client'
 
 export default async function  handler(req: NextApiRequest,
   res: NextApiResponse) {
-  if(req.method === 'POST') {
+  if(req.method === 'PUT') {
    const { userId, postId, like } = req.body
 
    const data = 
